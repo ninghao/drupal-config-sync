@@ -1,0 +1,24 @@
+uuid: dd14b9e4-3c24-4b7c-a6cf-8428c019188e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.product.body
+    - node.type.product
+  module:
+    - text
+    - user
+id: node.product.default
+targetEntityType: node
+bundle: product
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+  links:
+    weight: 100
+hidden: {  }
